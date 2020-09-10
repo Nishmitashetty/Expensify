@@ -15,7 +15,7 @@ store.dispatch(addExpense({ description: 'Water bill' ,amount: 100}));
 store.dispatch(addExpense({ description: 'Gas bill' ,amount: 300 }));
 //store.dispatch(setTextFilter('gas'));
 
-console.log("tets");
+console.log("test");
 //setTimeout(()=>
 //{
 //    store.dispatch(setTextFilter('bill'));
