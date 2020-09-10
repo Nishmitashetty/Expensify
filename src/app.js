@@ -12,10 +12,10 @@ import './styles/styles.scss';
 const store = configureStore();
 
 store.dispatch(addExpense({ description: 'Water bill' ,amount: 100}));
-store.dispatch(addExpense({ description: 'Gas bill' ,amount: 200 }));
+store.dispatch(addExpense({ description: 'Gas bill' ,amount: 300 }));
 //store.dispatch(setTextFilter('gas'));
 
-
+console.log("tets");
 //setTimeout(()=>
 //{
 //    store.dispatch(setTextFilter('bill'));
