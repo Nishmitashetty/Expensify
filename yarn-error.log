@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @babel/core --dev
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add heroku
 
 PATH: 
   C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Users\10645863\AppData\Local\Microsoft\WindowsApps;;C:\Microsoft VS Code\bin;C:\Users\10645863\AppData\Roaming\npm
@@ -26,7 +26,7 @@ npm manifest:
     "version": "1.0.0",
     "main": "index.js",
     "author": "Nishmita",
-    "license": "MIT",
+    "license": "Nishmita",
     "scripts": {
       "serve": "live-server public/",
       "dev-server": "webpack-dev-server",
@@ -36,7 +36,7 @@ npm manifest:
     },
     "dependencies": {
       "babel-cli": "6.24.1",
-      "babel-core": "6.25.0",
+      "babel-core": "^6.25.0",
       "babel-loader": "7.1.1",
       "babel-plugin-transform-class-properties": "6.24.1",
       "babel-plugin-transform-object-rest-spread": "^6.26.0",
@@ -47,7 +47,7 @@ npm manifest:
       "history": "4.10.1",
       "jest": "20.0.4",
       "live-server": "^1.2.1",
-      "moment": "2.18.1",
+      "moment": "^2.27.0",
       "node-sass": "4.14.1",
       "normalize.css": "7.0.0",
       "react": "16.0.0",
