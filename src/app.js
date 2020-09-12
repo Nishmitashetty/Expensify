@@ -13,7 +13,7 @@ const store = configureStore();
 
 store.dispatch(addExpense({ description: 'Water bill' ,amount: 100}));
 store.dispatch(addExpense({ description: 'Gas bill' ,amount: 300 }));
-console.log("testing");
+console.log("testing 123");
 
 <h2>dsd</h2>
 const state = store.getState();
