@@ -2,8 +2,8 @@
   "name": "expensify",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Malkareddy Jithender",
-  "license": "MIT",
+  "author": "Nishmita",
+  "license": "Nishmita",
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
