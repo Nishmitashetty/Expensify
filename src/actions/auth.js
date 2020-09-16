@@ -1,4 +1,4 @@
-import { firebase,googleAuthProvider,facebookAuthProvider } from '../firebase/firebase';
+import { firebase,googleAuthProvider } from '../firebase/firebase';
 
 //startLogin Action Generator
 const startLogin = () =>

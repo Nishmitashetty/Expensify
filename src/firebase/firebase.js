@@ -1,6 +1,5 @@
 import * as firebase from 'firebase';
 
-
 const firebaseConfig = {
   apiKey: process.env.FIREBASE_API_KEY,
   authDomain: process.env.FIREBASE_AUTH_DOMAIN,
@@ -17,6 +16,6 @@ const firebaseConfig = {
 
   const database = firebase.database();
   const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
-  const facebookAuthProvider = new firebase.auth.FacebookAuthProvider();
-  export {firebase,googleAuthProvider,facebookAuthProvider,database as default}
+ // const facebookAuthProvider = new firebase.auth.FacebookAuthProvider();
+  export {firebase,googleAuthProvider,database as default}
 
