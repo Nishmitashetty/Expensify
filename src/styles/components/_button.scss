@@ -1,0 +1,39 @@
+.button
+{
+    background:$blue;
+    border:none;
+    border-radius:3px;
+    color:white;
+    display:inline-block;
+    font-weight:300;
+    font-size:$font-size-large;
+    line-height:1;
+    padding:$s-size;
+    text-decoration:none;
+}
+
+.button--fb
+{
+    line-height:1;
+    display:inline-block;
+    margin-top:$s-size;
+    height:41.6px;
+    width:168px;
+    border-radius:3px;
+    background:$blue;
+    border:none;
+    color:white;
+    font-weight:490;
+    padding:0;
+    margin-bottom:1rem;
+}
+
+.button--link
+{
+    background:none;
+}
+
+.button--secondary
+{
+    background:#888;
+}

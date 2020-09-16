@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Expenses Summary component correctly with 1 expense 1`] = `
+<div
+  className="page-header"
+>
+  <div
+    className="content-container"
+  >
+    <h1
+      className="page-header__title"
+    >
+      viewing 
+      <span>
+        1
+      </span>
+       
+      expense
+       totalling  
+      <span>
+        ₹10,000.00
+      </span>
+    </h1>
+    <h3
+      className="page-header__subtitle"
+    >
+      <span>
+        0
+      </span>
+       
+      expense
+       hidden.
+    </h3>
+    <div
+      className="page-header__actions"
+    >
+      <[object Object]
+        className="button"
+        to="/create"
+      >
+        Add Expense
+      </[object Object]>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should render Expenses Summary component correctly with multiple expenses 1`] = `
+<div
+  className="page-header"
+>
+  <div
+    className="content-container"
+  >
+    <h1
+      className="page-header__title"
+    >
+      viewing 
+      <span>
+        5
+      </span>
+       
+      expenses
+       totalling  
+      <span>
+        ₹234,450.00
+      </span>
+    </h1>
+    <h3
+      className="page-header__subtitle"
+    >
+      <span />
+       
+      expenses
+       hidden because of default filters.
+    </h3>
+    <div
+      className="page-header__actions"
+    >
+      <[object Object]
+        className="button"
+        to="/create"
+      >
+        Add Expense
+      </[object Object]>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,30 @@
+.page-header
+{
+    background:$off-white;
+    padding:$l-size 0;
+    margin-bottom:$l-size;
+}
+
+.page-header__title
+{
+    margin:0;
+    font-weight:300;
+    span{
+        font-weight:700;
+    }
+}
+
+.page-header__subtitle
+{
+    font-weight:300;
+    font-family:sans-serif;
+    span{
+        font-weight:700;
+    }
+    margin:$s-size;
+}
+
+.page-header__actions
+{
+    margin-top:$m-size;
+}
